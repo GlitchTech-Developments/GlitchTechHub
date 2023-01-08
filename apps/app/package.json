@@ -1,0 +1,41 @@
+{
+  "name": "@acme/app",
+  "version": "0.1.0",
+  "main": "index.ts",
+  "scripts": {
+    "clean": "rm -rf .expo .turbo node_modules",
+    "dev": "expo start --ios",
+    "dev:android": "expo start --android",
+    "dev:ios": "expo start --ios",
+    "lint": "eslint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@acme/api": "*",
+    "@acme/tailwind-config": "*",
+    "@shopify/flash-list": "^1.4.0",
+    "@tanstack/react-query": "^4.21.0",
+    "@trpc/client": "^10.8.1",
+    "@trpc/react-query": "^10.8.1",
+    "@trpc/server": "^10.8.1",
+    "expo": "~47.0.6",
+    "expo-status-bar": "~1.4.2",
+    "nativewind": "^2.0.11",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.71.0-rc.0",
+    "react-native-safe-area-context": "4.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/runtime": "^7.20.7",
+    "@types/react": "^18.0.26",
+    "@types/react-native": "~0.70.8",
+    "eslint": "^8.31.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.4"
+  },
+  "private": true
+}
